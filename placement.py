@@ -48,7 +48,8 @@ model.add(Dense(units=1, activation='sigmoid'))
 model.compile(optimizer=Adam(learning_rate=0.00001), loss='binary_crossentropy', metrics=['accuracy'])
 
 #model fitting
-model.fit(X_train, y_train,epochs= 500, verbose=0)
+epoch = 300
+model.fit(X_train, y_train,epochs= epoch, verbose=0)
 
 #Evaluate accuracy of the model
 result = model.evaluate(X_test, y_test, verbose=1)
