@@ -4,7 +4,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.optimizers import Adam
 
-#read the data
+#read the data from csv file
 dataset = pd.read_csv('Placement_Data_Full_Class.csv')
 
 #seprate the columns for making dummy variables
