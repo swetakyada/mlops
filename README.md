@@ -1,6 +1,6 @@
 # mlops
 <div>
-Integration of Machine Learning and Devops<br>
+Integration of Machine Learning and Devops<br><br>
 </div>
 <div>
 For detailed information, I have written a blog post. Click on the link below to read the blog.<br>
